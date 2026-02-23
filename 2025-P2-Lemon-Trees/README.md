@@ -11,7 +11,7 @@ Por otro lado, cada robot cuenta con un brazo terminado en una pinza, la cual si
 En los ejercicios que hemos hecho hasta ahora, siempre ha sido posible moverse desde una ubicación a otra con una sola acción. Esto no es realista, por lo que en este modelo únicamente se podrá realizar la acción de moverse si dos ubicaciones están conectadas. La distribución de las distintas ubicaciones de la plantación se muestra en la siguiente figura:
 
 
-[![lemon_trees](https://github.com/user-attachments/assets/8b521d7d-d0a9-4d91-bea4-dc99bd351127)](https://youtu.be/wCQfkEkePx8)
+[![lemon_trees](assets/lemon_trees.png)](https://youtu.be/wCQfkEkePx8)
 
 ## Ejercicio 1
 Implementa desde cero el modelo para el sistema de recolección automática de limones propuesto, usando `:fluents` y aciones normales (instantáneas). Crea un fichero llamado [lemon_fluent_domain.pddl](pddl/lemon_fluent_domain.pddl) para la definición del dominio y otro llamado [lemon_problem.pddl](pddl/lemon_problem.pddl) para la definición del problema.
